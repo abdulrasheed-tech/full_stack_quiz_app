@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, "../public")))
 connectDB();
-const port = process.env.port;
+const port = process.env.PORT || process.env.port || 5000;
 
 
 // chapter api
