@@ -17,7 +17,6 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname, "../public")))
-connectDB();
 const port = process.env.PORT || process.env.port || 5000;
 
 
@@ -87,6 +86,7 @@ app.post("/submit-test", async (req, res) => {
   res.json(result)
 
 })
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Listening on port ${port}`);
+  connectDB();
 });
