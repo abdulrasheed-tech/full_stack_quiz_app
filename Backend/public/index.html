@@ -5,25 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="MCQ Quiz App – Select a chapter and test your knowledge with multiple choice questions.">
   <title>MCQ App – Chapters</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            primary: { 50:'#eef2ff',100:'#e0e7ff',200:'#c7d2fe',300:'#a5b4fc',400:'#818cf8',500:'#6366f1',600:'#4f46e5',700:'#4338ca',800:'#3730a3',900:'#312e81' },
+            surface: { 50:'#f8fafc',100:'#f1f5f9',200:'#e2e8f0',800:'#1e293b',900:'#0f172a' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="min-h-screen bg-gradient-to-br from-surface-900 via-slate-900 to-primary-900 text-white font-sans">
 
-<nav id="navbar" class="navbar"></nav>
+<!-- Navbar -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-surface-900/70 border-b border-white/10 flex items-center justify-between px-6 py-3.5 shadow-lg"></nav>
 
-<h1>📚 Select a Chapter</h1>
-
-<div id="chapters">
-  <div class="loading-spinner" id="chapters-loader">
-    <div class="spinner"></div>
-    <p>Loading chapters...</p>
+<!-- Main Content -->
+<main class="pt-24 pb-12 px-4 w-full max-w-3xl mx-auto">
+  <div class="text-center mb-10">
+    <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
+      <span class="bg-gradient-to-r from-primary-300 to-indigo-200 bg-clip-text text-transparent">📚 Select a Chapter</span>
+    </h1>
+    <p class="text-slate-400 text-sm">Choose a chapter to start your quiz</p>
   </div>
-</div>
+
+  <!-- Revision Banner -->
+  <div id="revision-banner" class="hidden mb-8">
+    <div class="bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/20 rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <span class="text-3xl">🔁</span>
+        <div>
+          <h3 class="font-bold text-amber-200 text-lg">Revise Difficult MCQs</h3>
+          <p class="text-amber-300/70 text-sm">Review questions you got wrong in previous quizzes</p>
+        </div>
+      </div>
+      <button onclick="startRevision()" class="px-6 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold rounded-xl hover:shadow-lg hover:shadow-amber-500/25 transition-all duration-200 hover:-translate-y-0.5 text-sm whitespace-nowrap">
+        Start Revision
+      </button>
+    </div>
+  </div>
+
+  <div id="chapters" class="space-y-4">
+    <div class="flex flex-col items-center gap-3 py-16" id="chapters-loader">
+      <div class="spinner"></div>
+      <p class="text-slate-400 text-sm">Loading chapters...</p>
+    </div>
+  </div>
+</main>
 
 <!-- Toast container -->
-<div id="toast-container"></div>
+<div id="toast-container" class="fixed bottom-6 right-6 z-[200] flex flex-col-reverse gap-2"></div>
 
 <script src="script.js"></script>
-
 </body>
 </html>

@@ -262,54 +262,1887 @@
     "description": "Overview of Cascading Style Sheet and basic properties and selectors",
     "mcqs": [
       {
-        "question": "Placeholder Question 1 for CSS",
+        "question": "What does CSS stand for?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Creative Style Sheets",
+          "Cascading Style Sheets",
+          "Computer Style Sheets",
+          "Colorful Style Sheets"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": [
+          "class",
+          "font",
+          "styles",
+          "style"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which selector has the highest specificity?",
+        "options": [
+          ".class",
+          "#id",
+          "element",
+          "universal (*)"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which CSS property controls text color?",
+        "options": [
+          "text-color",
+          "font-color",
+          "color",
+          "text-style"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What does RGB stand for in CSS colors?",
+        "options": [
+          "Red, Green, Blue",
+          "Red, Gray, Black",
+          "Real Good Brightness",
+          "Right Gradient Balance"
         ],
         "correctOption": 0
       },
       {
-        "question": "Placeholder Question 2 for CSS",
+        "question": "Which property creates space outside an element's border?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "padding",
+          "margin",
+          "spacing",
+          "border-space"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "The CSS box model consists of:",
+        "options": [
+          "Margin, Border, Padding, Content",
+          "Header, Body, Footer",
+          "Width, Height, Depth",
+          "Top, Right, Bottom, Left"
         ],
         "correctOption": 0
       },
       {
-        "question": "Placeholder Question 3 for CSS",
+        "question": "Which display property value allows setting width and height?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "inline",
+          "block",
+          "inline-block",
+          "none"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the default position value in CSS?",
+        "options": [
+          "relative",
+          "absolute",
+          "fixed",
+          "static"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which CSS property is used to create flexible layouts?",
+        "options": [
+          "display: grid",
+          "display: flex",
+          "display: block",
+          "display: table"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which pseudo-class represents a visited link?",
+        "options": [
+          ":hover",
+          ":active",
+          ":visited",
+          ":link"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which color value represents pure white?",
+        "options": [
+          "#000000",
+          "#FFFFFF",
+          "rgb(255, 0, 0)",
+          "hsl(0, 100%, 0%)"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which property creates space inside an element's border?",
+        "options": [
+          "margin",
+          "padding",
+          "spacing",
+          "indent"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which property changes an element's display type?",
+        "options": [
+          "visibility",
+          "show",
+          "display",
+          "type"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which position value removes element from normal flow?",
+        "options": [
+          "static",
+          "relative",
+          "absolute",
+          "fixed"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which CSS unit is relative to font size?",
+        "options": [
+          "px",
+          "em",
+          "cm",
+          "%"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which property creates rounded corners?",
+        "options": [
+          "border-curve",
+          "corner-radius",
+          "border-radius",
+          "rounded-edge"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which selector matches all <p> elements?",
+        "options": [
+          "#p",
+          ".p",
+          "p",
+          "para"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which property controls text alignment?",
+        "options": [
+          "text-align",
+          "align-text",
+          "font-align",
+          "text-position"
         ],
         "correctOption": 0
       },
       {
-        "question": "Placeholder Question 4 for CSS",
+        "question": "Which value makes an element invisible but maintains space?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "display: none",
+          "visibility: hidden",
+          "opacity: 0",
+          "hidden: true"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which property controls stacking order?",
+        "options": [
+          "z-order",
+          "stack-level",
+          "z-index",
+          "layer"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which pseudo-class represents an element being clicked?",
+        "options": [
+          ":hover",
+          ":active",
+          ":focus",
+          ":click"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which property creates smooth transitions?",
+        "options": [
+          "animation",
+          "transform",
+          "transition",
+          "change"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which value centers content in flexbox?",
+        "options": [
+          "justify-content: center",
+          "align-items: center",
+          "Both a and b",
+          "flex-center: true"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which media query targets mobile devices?",
+        "options": [
+          "@media screen and (max-width: 600px)",
+          "@media mobile",
+          "@media handheld",
+          "@media (device: phone)"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "chapterNumber": 3,
+    "title": "Chapter 3: Bootstrap Framework",
+    "description": "Overview of the Bootstrap CSS framework, responsive grid system, utility classes, and common components.",
+    "mcqs": [
+      {
+        "question": "What is Bootstrap primarily used for?",
+        "options": [
+          "Backend development",
+          "Frontend styling and layout",
+          "Database management",
+          "Server configuration"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which class is used to create a primary-colored button in Bootstrap?",
+        "options": [
+          ".btn-blue",
+          ".btn-primary",
+          ".button-primary",
+          ".primary-btn"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does the .container class do in Bootstrap?",
+        "options": [
+          "Makes content full-width",
+          "Centers content with padding",
+          "Hides content on mobile",
+          "Adds a border around elements"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which Bootstrap class makes text bold?",
+        "options": [
+          ".text-bold",
+          ".bold",
+          ".fw-bold",
+          ".strong"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "How many columns does Bootstrap's grid system have?",
+        "options": [
+          "10",
+          "12",
+          "16",
+          "6"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which class creates a red alert box in Bootstrap?",
+        "options": [
+          ".alert-error",
+          ".alert-red",
+          ".alert-danger",
+          ".alert-warning"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What does .mt-3 mean in Bootstrap spacing utilities?",
+        "options": [
+          "Margin-top 3px",
+          "Margin-top 1rem",
+          "Margin-top 3rem",
+          "Padding-top 3px"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which class makes a table responsive?",
+        "options": [
+          ".responsive-table",
+          ".table-mobile",
+          ".table-responsive",
+          ".scrollable-table"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the correct way to include Bootstrap via CDN?",
+        "options": [
+          "<script src=\"bootstrap.js\"></script>",
+          "<link href=\"bootstrap.min.css\" rel=\"stylesheet\">",
+          "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+          "<style src=\"bootstrap.css\"></style>"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which class hides an element only on mobile screens?",
+        "options": [
+          ".d-none",
+          ".d-sm-none",
+          ".hidden-mobile",
+          ".mobile-hide"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does .col-md-6 mean in Bootstrap's grid?",
+        "options": [
+          "6 columns on mobile",
+          "6 columns on medium screens and up",
+          "6 columns on all screens",
+          "6 rows in a table"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which class creates a badge in Bootstrap?",
+        "options": [
+          ".tag",
+          ".label",
+          ".badge",
+          ".chip"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "How do you create a dropdown menu in Bootstrap?",
+        "options": [
+          "<div class=\"dropdown\">",
+          "<ul class=\"dropdown-menu\">",
+          "<select class=\"dropdown\">",
+          "<nav class=\"dropdown\">"
         ],
         "correctOption": 0
       },
       {
-        "question": "Placeholder Question 5 for CSS",
+        "question": "Which class centers text horizontally?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          ".align-center",
+          ".text-center",
+          ".center-text",
+          ".middle"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the purpose of .navbar-expand-lg?",
+        "options": [
+          "Makes navbar vertical on large screens",
+          "Collapses navbar on screens < 992px",
+          "Adds animation to navbar",
+          "Hides navbar on mobile"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which class adds rounded corners to an image?",
+        "options": [
+          ".rounded",
+          ".circle",
+          ".img-rounded",
+          ".border-radius"
         ],
         "correctOption": 0
+      },
+      {
+        "question": "How do you make a full-width container in Bootstrap?",
+        "options": [
+          ".container-fluid",
+          ".container-full",
+          ".width-100",
+          ".full-width"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which class creates a card component?",
+        "options": [
+          ".box",
+          ".panel",
+          ".card",
+          ".tile"
+        ],
+        "correctOption": 2
+      }
+    ]
+  },
+  {
+    "chapterNumber": 4,
+    "title": "Chapter 4: JavaScript Fundamentals",
+    "description": "Introduction to JavaScript syntax, operators, variables, loops, DOM manipulation, and event handling.",
+    "mcqs": [
+      {
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "options": [
+          "variable x;",
+          "let x;",
+          "v x;",
+          "new x;"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which operator checks both value and type equality?",
+        "options": [
+          "==",
+          "===",
+          "=",
+          "!="
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does typeof null return?",
+        "options": [
+          "\"null\"",
+          "\"object\"",
+          "\"undefined\"",
+          "\"number\""
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method selects an HTML element by its ID?",
+        "options": [
+          "document.query()",
+          "document.getElementById()",
+          "document.getElement()",
+          "document.selectId()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does the this keyword refer to in an object method?",
+        "options": [
+          "The function itself",
+          "The global object",
+          "The object that owns the method",
+          "The parent object"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which loop always executes at least once?",
+        "options": [
+          "for",
+          "while",
+          "do...while",
+          "for...in"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the purpose of addEventListener()?",
+        "options": [
+          "To create new HTML elements",
+          "To handle user events",
+          "To modify CSS styles",
+          "To declare variables"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which array method adds elements to the end?",
+        "options": [
+          "push()",
+          "pop()",
+          "shift()",
+          "unshift()"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What does JSON stand for?",
+        "options": [
+          "JavaScript Object Notation",
+          "JavaScript Oriented Notation",
+          "JavaScript Operator Network",
+          "JavaScript Object Naming"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which function converts a string to an integer?",
+        "options": [
+          "Number()",
+          "parseInt()",
+          "stringToInt()",
+          "parseInteger()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does the return statement do in a function?",
+        "options": [
+          "Ends function execution",
+          "Specifies the function's output",
+          "Both a and b",
+          "Prints to the console"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which event occurs when a user clicks an element?",
+        "options": [
+          "onhover",
+          "onchange",
+          "onclick",
+          "onload"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the correct way to write a JavaScript comment?",
+        "options": [
+          "",
+          "// comment",
+          "* comment *",
+          "' comment '"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method converts an object to a JSON string?",
+        "options": [
+          "JSON.parse()",
+          "JSON.stringify()",
+          "JSON.convert()",
+          "JSON.toText()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does DOM stand for?",
+        "options": [
+          "Data Object Model",
+          "Document Object Model",
+          "Digital Output Module",
+          "Display Object Management"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which operator concatenates strings?",
+        "options": [
+          "+",
+          "&",
+          "concat()",
+          "||"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What does preventDefault() do in event handling?",
+        "options": [
+          "Stops event propagation",
+          "Cancels the default action",
+          "Speeds up event processing",
+          "Validates form inputs"
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  {
+    "chapterNumber": 5,
+    "title": "Chapter 5: jQuery",
+    "description": "Introduction to the jQuery library, including selectors, methods for DOM manipulation, event handling, animations, and AJAX.",
+    "mcqs": [
+      {
+        "question": "What is the correct way to include jQuery from a CDN?",
+        "options": [
+          "<script src=\"jquery.js\"></script>",
+          "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>",
+          "<link href=\"jquery.css\" rel=\"stylesheet\">",
+          "<script href=\"jquery.min.js\"></script>"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which jQuery method selects an element by its ID?",
+        "options": [
+          "$(\".element\")",
+          "$(\"#element\")",
+          "$(\"element\")",
+          "$(\"div#element\")"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does $(document).ready() do?",
+        "options": [
+          "Loads jQuery",
+          "Waits for the DOM to fully load before executing code ?",
+          "Refreshes the page",
+          "Checks if jQuery is installed"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method changes the text of an element?",
+        "options": [
+          ".html()",
+          ".text()",
+          ".change()",
+          ".val()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you select all <p> elements with jQuery?",
+        "options": [
+          "$(\"p\")",
+          "$(\".p\")",
+          "$(\"#p\")",
+          "$(\"paragraph\")"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which method applies a CSS property to an element?",
+        "options": [
+          ".style()",
+          ".attr()",
+          ".css()",
+          ".addClass()"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What does .fadeOut() do?",
+        "options": [
+          "Makes an element disappear gradually",
+          "Changes its color",
+          "Slides it up",
+          "Adds a shadow"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which method removes an element from the DOM?",
+        "options": [
+          ".delete()",
+          ".remove()",
+          ".hide()",
+          ".clear()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you attach a click event handler in jQuery?",
+        "options": [
+          "$(\"button\").onClick(function() { ... })",
+          "$(\"button\").click(function() { ... })",
+          "$(\"button\").addEvent(\"click\", function() { ... })",
+          "$(\"button\").addClick(function() { ... })"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method adds content at the end of an element?",
+        "options": [
+          ".append()",
+          ".prepend()",
+          ".after()",
+          ".insert()"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What does .slideToggle() do?",
+        "options": [
+          "Slides an element left or right",
+          "Toggles between sliding up and down",
+          "Fades an element in and out",
+          "Changes its size"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method makes an AJAX GET request?",
+        "options": [
+          "$.get()",
+          "$.ajaxGet()",
+          "$.fetch()",
+          "$.load()"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "How do you change an element's HTML content?",
+        "options": [
+          ".text()",
+          ".content()",
+          ".html()",
+          ".innerHTML()"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which method animates custom CSS properties?",
+        "options": [
+          ".fade()",
+          ".slide()",
+          ".animate()",
+          ".transition()"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What does .empty() do?",
+        "options": [
+          "Removes the selected element",
+          "Removes all child elements of the selected element",
+          "Hides the element",
+          "Clears event listeners"
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  {
+    "chapterNumber": 6,
+    "title": "Chapter 6: Introduction to Databases",
+    "description": "Introduction to NoSQL databases, specifically MongoDB, covering data formats, basic commands, and CRUD operations.",
+    "mcqs": [
+      {
+        "question": "What type of database is MongoDB?",
+        "options": [
+          "Relational",
+          "Document-oriented",
+          "Graph-based",
+          "Key-value store"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which format does MongoDB use to store data?",
+        "options": [
+          "XML",
+          "CSV",
+          "JSON",
+          "BSON"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which command starts the MongoDB server?",
+        "options": [
+          "mongo",
+          "mongod",
+          "mongodb",
+          "startmongo"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method inserts a single document into a collection?",
+        "options": [
+          "insert()",
+          "insertMany()",
+          "insertOne()",
+          "add()"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the default port for MongoDB?",
+        "options": [
+          "3306",
+          "5432",
+          "27017",
+          "8080"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which operator updates a field in MongoDB?",
+        "options": [
+          "$change",
+          "$set",
+          "$update",
+          "$modify"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you delete all documents matching a condition?",
+        "options": [
+          "remove()",
+          "delete()",
+          "deleteOne()",
+          "deleteMany()"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which query finds documents where age > 30?",
+        "options": [
+          "db.users.find({ age > 30 })",
+          "db.users.find({ age: { $gt: 30 } })",
+          "db.users.find(\"age > 30\")",
+          "db.users.findGreater(30)"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does _id represent in MongoDB?",
+        "options": [
+          "A randomly generated string",
+          "A unique identifier for each document",
+          "The database name",
+          "The collection name"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which command drops an entire collection?",
+        "options": [
+          "db.collection.delete()",
+          "db.collection.remove()",
+          "db.collection.drop()",
+          "db.collection.erase()"
+        ],
+        "correctOption": 2
+      }
+    ]
+  },
+  {
+    "chapterNumber": 7,
+    "title": "Chapter 7: JavaScript as Backend",
+    "description": "Introduction to Node.js, Express.js, server-side development, REST APIs, and database integration.",
+    "mcqs": [
+      {
+        "question": "What is Node.js?",
+        "options": [
+          "A frontend framework",
+          "A JavaScript runtime built on Chrome's V8 engine",
+          "A database management system",
+          "A CSS preprocessor"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which command initializes a Node.js project?",
+        "options": [
+          "npm start",
+          "npm init",
+          "node init",
+          "npm create"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does Express.js provide for Node.js?",
+        "options": [
+          "A web application framework",
+          "A database ORM",
+          "A testing library",
+          "A package manager"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which HTTP method is typically used to retrieve data?",
+        "options": [
+          "POST",
+          "PUT",
+          "GET",
+          "DELETE"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is middleware in Express.js?",
+        "options": [
+          "Database connection",
+          "Functions that have access to request/response objects",
+          "Frontend templates",
+          "Error handling classes"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which status code indicates successful creation?",
+        "options": [
+          "200",
+          "201",
+          "400",
+          "500"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does REST stand for?",
+        "options": [
+          "Representational State Transfer",
+          "Remote Execution System Transfer",
+          "Resource Exchange Standard Type",
+          "Representational Secure Transfer"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which method is used to parse JSON bodies?",
+        "options": [
+          "express.text()",
+          "express.json()",
+          "express.raw()",
+          "express.urlencoded()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the purpose of package.json?",
+        "options": [
+          "To store project metadata and dependencies",
+          "To configure the database",
+          "To write test cases",
+          "To define API routes"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which command installs Express.js?",
+        "options": [
+          "npm install -g express",
+          "npm add express",
+          "npm install express",
+          "node install express"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the default port for Express apps?",
+        "options": [
+          "3000",
+          "8080",
+          "80",
+          "3306"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which object contains route parameters?",
+        "options": [
+          "req.query",
+          "req.body",
+          "req.params",
+          "req.headers"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is JWT used for?",
+        "options": [
+          "Database modeling",
+          "Authentication/Authorization",
+          "Request validation",
+          "Server configuration"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method connects to MongoDB in Node.js?",
+        "options": [
+          "mongoose.connect()",
+          "mongo.connect()",
+          "db.connect()",
+          "mongodb.connect()"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What does MVC stand for?",
+        "options": [
+          "Model View Controller",
+          "Main View Component",
+          "Model Variable Controller",
+          "Managed View Collection"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which HTTP method updates existing resources?",
+        "options": [
+          "POST",
+          "PUT",
+          "GET",
+          "PATCH"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is Postman primarily used for?",
+        "options": [
+          "Database administration",
+          "API testing",
+          "Frontend development",
+          "Server monitoring"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method sends JSON response?",
+        "options": [
+          "res.send()",
+          "res.json()",
+          "res.end()",
+          "res.return()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does CORS stand for?",
+        "options": [
+          "Cross-Origin Resource Sharing",
+          "Centralized Origin Resource System",
+          "Cross-Operation Request Service",
+          "Common Origin Resource Standard"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which module is core to Node.js file operations?",
+        "options": [
+          "http",
+          "fs",
+          "path",
+          "url"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the purpose of .env files?",
+        "options": [
+          "To store environment variables",
+          "To configure routes",
+          "To define database schemas",
+          "To write test cases"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which method handles errors in Express?",
+        "options": [
+          "app.error()",
+          "app.catch()",
+          "app.use() with 4 parameters",
+          "app.handleError()"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the entry point file typically called?",
+        "options": [
+          "index.js",
+          "main.js",
+          "server.js or app.js",
+          "start.js"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which status code indicates \"Not Found\"?",
+        "options": [
+          "404",
+          "302",
+          "200",
+          "500"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What does ORM stand for?",
+        "options": [
+          "Object-Relational Mapping",
+          "Operational Resource Management",
+          "Object Request Model",
+          "Online Resource Manager"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which method adds middleware in Express?",
+        "options": [
+          "app.use()",
+          "app.middleware()",
+          "app.add()",
+          "app.attach()"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the purpose of body-parser?",
+        "options": [
+          "To parse incoming request bodies",
+          "To format response bodies",
+          "To validate request headers",
+          "To compress responses"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which database is document-based?",
+        "options": [
+          "MongoDB",
+          "PostgreSQL",
+          "MySQL",
+          "SQLite"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the purpose of nodemon?",
+        "options": [
+          "To automatically restart Node.js apps during development",
+          "To monitor server performance",
+          "To manage database connections",
+          "To validate API requests"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which status code indicates server error?",
+        "options": [
+          "500",
+          "401",
+          "400",
+          "403"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "chapterNumber": 8,
+    "title": "Chapter 8: JavaScript as web based frontend frameworks",
+    "description": "Exploration of popular JavaScript frameworks like React, Angular, and Vue, covering their core architectures, features, and use cases.",
+    "mcqs": [
+      {
+        "question": "Which framework is developed and maintained by Facebook?",
+        "options": [
+          "Angular",
+          "Vue",
+          "React",
+          "Svelte"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which framework uses a two-way data binding approach?",
+        "options": [
+          "React",
+          "Angular",
+          "Vue",
+          "Ember"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the virtual DOM used for in React?",
+        "options": [
+          "Database management",
+          "Optimizing UI updates",
+          "State management",
+          "API calls"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which framework uses a component-based architecture?",
+        "options": [
+          "Only React",
+          "Only Angular",
+          "Both React and Angular",
+          "Neither"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which framework uses TypeScript by default?",
+        "options": [
+          "React",
+          "Angular",
+          "Vue",
+          "jQuery"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is JSX in React?",
+        "options": [
+          "A database query language",
+          "A templating syntax that allows HTML in JavaScript",
+          "A state management library",
+          "A testing framework"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which framework uses directives like ngIf and ngFor?",
+        "options": [
+          "React",
+          "Angular",
+          "Vue",
+          "Svelte"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which framework is known for its lightweight and progressive adoption?",
+        "options": [
+          "React",
+          "Angular",
+          "Vue",
+          "Ember"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the primary language used in Angular?",
+        "options": [
+          "JavaScript",
+          "TypeScript",
+          "Dart",
+          "CoffeeScript"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which framework uses a single-file component structure (.vue files)?",
+        "options": [
+          "React",
+          "Angular",
+          "Vue",
+          "Svelte"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which tool is used to create a new React project?",
+        "options": [
+          "ng new",
+          "vue create",
+          "create-react-app",
+          "npm init"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which framework is best suited for large-scale enterprise applications?",
+        "options": [
+          "React",
+          "Angular",
+          "Vue",
+          "jQuery"
+        ],
+        "correctOption": 1
+      }
+    ]
+  },
+  {
+    "chapterNumber": 9,
+    "title": "Chapter 9: Web Development with Python",
+    "description": "Introduction to Python basics for the web and building backend applications using the Flask framework, including routing, templates, and database integration.",
+    "mcqs": [
+      {
+        "question": "Which of the following is NOT a Python data type?",
+        "options": [
+          "list",
+          "tuple",
+          "array",
+          "dict"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the output of print(3 ** 2)?",
+        "options": [
+          "6",
+          "9",
+          "1.5",
+          "Error"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which operator checks if two values are equal?",
+        "options": [
+          "=",
+          "==",
+          "===",
+          "!="
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does the elif statement do?",
+        "options": [
+          "Ends a loop",
+          "Handles multiple conditions",
+          "Declares a function",
+          "Imports a module"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which loop runs at least once?",
+        "options": [
+          "for",
+          "while",
+          "do-while (Python doesn't have this)",
+          "repeat-until"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What keyword defines a function in Python?",
+        "options": [
+          "func",
+          "def",
+          "function",
+          "lambda"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you import a module named math?",
+        "options": [
+          "include math",
+          "import math",
+          "require math",
+          "using math"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is Flask?",
+        "options": [
+          "A database",
+          "A frontend framework",
+          "A Python web framework",
+          "A JavaScript library"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which command installs Flask?",
+        "options": [
+          "pip install flask",
+          "npm install flask",
+          "python get flask",
+          "conda add flask"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the default Flask development server port?",
+        "options": [
+          "3000",
+          "5000",
+          "8000",
+          "8080"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which decorator is used to define routes in Flask?",
+        "options": [
+          "@app.path",
+          "@app.route",
+          "@app.url",
+          "@app.get"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you access query parameters in Flask?",
+        "options": [
+          "request.query",
+          "request.args",
+          "request.params",
+          "request.get"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which template engine does Flask use by default?",
+        "options": [
+          "Django Templates",
+          "Jinja2",
+          "Handlebars",
+          "EJS"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What syntax does Jinja2 use for variables?",
+        "options": [
+          "{{ variable }}",
+          "{% variable %}",
+          "#{variable}",
+          "$(variable)"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which Flask extension handles forms?",
+        "options": [
+          "Flask-Forms",
+          "Flask-WTF",
+          "Flask-FormBuilder",
+          "Flask-HTML"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is SQLAlchemy in Flask?",
+        "options": [
+          "A template engine",
+          "An ORM (Object-Relational Mapper)",
+          "A testing framework",
+          "A deployment tool"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which method creates a database table in Flask-SQLAlchemy?",
+        "options": [
+          "db.create()",
+          "db.create_all()",
+          "db.init()",
+          "db.build()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you handle a 404 error in Flask?",
+        "options": [
+          "@app.errorhandler(404)",
+          "@app.catch(404)",
+          "@app.fail(404)",
+          "@app.exception(404)"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which platform is commonly used to deploy Flask apps?",
+        "options": [
+          "GitHub",
+          "Heroku",
+          "WordPress",
+          "Firebase"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does request.method return in Flask?",
+        "options": [
+          "The URL path",
+          "The HTTP method (GET, POST, etc.)",
+          "The server IP",
+          "The response status"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which function renders an HTML template in Flask?",
+        "options": [
+          "render()",
+          "render_template()",
+          "template()",
+          "html()"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the purpose of url_for() in Flask?",
+        "options": [
+          "To fetch external APIs",
+          "To generate URLs for routes",
+          "To validate URLs",
+          "To shorten URLs"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which HTTP method is used to submit form data?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is WTForms used for?",
+        "options": [
+          "Database management",
+          "Form handling and validation",
+          "User authentication",
+          "API testing"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which command initializes a Flask-SQLAlchemy database?",
+        "options": [
+          "flask db init",
+          "flask sql init",
+          "flask create-db",
+          "flask startdb"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What does db.session.commit() do?",
+        "options": [
+          "Rolls back changes",
+          "Saves changes to the database",
+          "Deletes a table",
+          "Creates a backup"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which tool is used to test Flask APIs?",
+        "options": [
+          "Postman",
+          "Jupyter",
+          "PyCharm",
+          "MySQL Workbench"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "chapterNumber": 10,
+    "title": "Chapter 10: DNS, Nameservers, and Hosting",
+    "description": "Introduction to Domain Name System (DNS), DNS record types, nameservers, and various web hosting models.",
+    "mcqs": [
+      {
+        "question": "What does DNS stand for?",
+        "options": [
+          "Domain Network System",
+          "Dynamic Naming Service",
+          "Domain Name System",
+          "Data Naming Structure"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the primary function of DNS?",
+        "options": [
+          "Encrypting web traffic",
+          "Translating domain names to IP addresses",
+          "Hosting websites",
+          "Managing email servers"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which record type maps a domain to an IPv4 address?",
+        "options": [
+          "CNAME",
+          "MX",
+          "A",
+          "TXT"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the purpose of a nameserver?",
+        "options": [
+          "To store website files",
+          "To direct DNS queries to the correct DNS records",
+          "To block malicious traffic",
+          "To speed up website loading"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which hosting type shares server resources among multiple users?",
+        "options": [
+          "Dedicated hosting",
+          "VPS hosting",
+          "Shared hosting",
+          "Cloud hosting"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is a key advantage of VPS hosting?",
+        "options": [
+          "Free domain registration",
+          "Dedicated resources at a lower cost than dedicated hosting",
+          "Unlimited bandwidth",
+          "No need for DNS configuration"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which hosting type is ideal for high-traffic enterprise websites?",
+        "options": [
+          "Shared hosting",
+          "Dedicated hosting",
+          "Reseller hosting",
+          "Free hosting"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What does \"cloud hosting\" use?",
+        "options": [
+          "A single physical server",
+          "A network of virtualized servers",
+          "Only SSD storage",
+          "Blockchain technology"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which DNS record handles email routing?",
+        "options": [
+          "A",
+          "CNAME",
+          "MX",
+          "AAAA"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the TTL in DNS?",
+        "options": [
+          "Time-To-Live (how long a DNS record is cached)",
+          "Total Traffic Limit",
+          "Technical Transfer Log",
+          "A type of SSL certificate"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which command checks DNS records from the terminal?",
+        "options": [
+          "ping",
+          "nslookup or dig",
+          "curl",
+          "traceroute"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is a CNAME record used for?",
+        "options": [
+          "Redirecting a domain to another domain or subdomain",
+          "Setting up email servers",
+          "Blocking IP addresses",
+          "Encrypting DNS queries"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which hosting type is most cost-effective for small blogs?",
+        "options": [
+          "Dedicated hosting",
+          "Shared hosting",
+          "Cloud hosting",
+          "Colocation hosting"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is required to point a domain to a hosting server?",
+        "options": [
+          "Update nameservers or A/CNAME records",
+          "Install WordPress",
+          "Buy an SSL certificate",
+          "Configure a firewall"
+        ],
+        "correctOption": 0
+      }
+    ]
+  },
+  {
+    "chapterNumber": 11,
+    "title": "Chapter 11: WordPress CMS",
+    "description": "Introduction to WordPress as a Content Management System (CMS), covering themes, plugins, installation steps, and e-commerce with WooCommerce.",
+    "mcqs": [
+      {
+        "question": "What is WordPress?",
+        "options": [
+          "A programming language",
+          "A content management system (CMS)",
+          "A web browser",
+          "A database server"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which type of websites can WordPress create?",
+        "options": [
+          "Blogs",
+          "E-commerce stores",
+          "Business websites",
+          "All of the above"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "What is the first step to install WordPress?",
+        "options": [
+          "Buy a domain and hosting",
+          "Install plugins",
+          "Choose a theme",
+          "Create a database"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which file is edited to configure WordPress settings?",
+        "options": [
+          "index.html",
+          "wp-config.php",
+          "style.css",
+          "functions.php"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is a WordPress theme?",
+        "options": [
+          "A plugin for SEO",
+          "A pre-designed template for website appearance",
+          "A security feature",
+          "A backup tool"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Where can you find free WordPress themes?",
+        "options": [
+          "WordPress.org theme directory",
+          "GitHub",
+          "Google Fonts",
+          "Adobe Stock"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the purpose of WordPress plugins?",
+        "options": [
+          "Change the website's domain name",
+          "Add new features and functionality",
+          "Increase hosting speed",
+          "Replace the database"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which plugin converts WordPress into an e-commerce store?",
+        "options": [
+          "Yoast SEO",
+          "WooCommerce",
+          "Contact Form 7",
+          "Elementor"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you add products in WooCommerce?",
+        "options": [
+          "From WordPress Settings",
+          "From WooCommerce > Products",
+          "From the WordPress dashboard sidebar",
+          "From the database"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the purpose of a \"child theme\" in WordPress?",
+        "options": [
+          "To create a backup",
+          "To safely customize a theme without losing changes",
+          "To improve website speed",
+          "To add SSL security"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which tool helps optimize WordPress SEO?",
+        "options": [
+          "WooCommerce",
+          "Yoast SEO",
+          "Jetpack",
+          "WP Super Cache"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the WordPress dashboard?",
+        "options": [
+          "A security plugin",
+          "The admin control panel for managing the website",
+          "A hosting provider's interface",
+          "A database management tool"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you update WordPress plugins?",
+        "options": [
+          "From Plugins -> Installed Plugins -> Update",
+          "By reinstalling WordPress",
+          "From the hosting control panel",
+          "By editing wp-config.php"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the purpose of a \"permalink\" in WordPress?",
+        "options": [
+          "A temporary login link",
+          "A permanent URL structure for posts/pages",
+          "A security token",
+          "A database backup"
+        ],
+        "correctOption": 1
       }
     ]
   }

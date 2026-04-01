@@ -27,6 +27,15 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
+// Serve Google Client ID to frontend (safe — Client ID is public in OAuth)
+app.get("/config/google-client-id", (req, res) => {
+  const clientId = process.env.GOOGLE_CLIENT_ID;
+  if (!clientId) {
+    return res.status(404).json({ error: "Google Client ID not configured" });
+  }
+  res.json({ clientId });
+});
+
 app.use(authRoutes);
 app.use(chapterRoutes);
 app.use(testRoutes);

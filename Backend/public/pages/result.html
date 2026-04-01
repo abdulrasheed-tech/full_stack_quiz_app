@@ -5,20 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="View your quiz results – see your score, correct and wrong answers.">
   <title>Result – MCQ App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            primary: { 50:'#eef2ff',100:'#e0e7ff',200:'#c7d2fe',300:'#a5b4fc',400:'#818cf8',500:'#6366f1',600:'#4f46e5',700:'#4338ca',800:'#3730a3',900:'#312e81' },
+            surface: { 50:'#f8fafc',100:'#f1f5f9',200:'#e2e8f0',800:'#1e293b',900:'#0f172a' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body class="min-h-screen bg-gradient-to-br from-surface-900 via-slate-900 to-primary-900 text-white font-sans">
 
-<nav id="navbar" class="navbar"></nav>
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-surface-900/70 border-b border-white/10 flex items-center justify-between px-6 py-3.5 shadow-lg"></nav>
 
-<h1>📊 Your Result</h1>
+<main class="pt-24 pb-12 px-4 w-full max-w-xl mx-auto">
+  <div class="text-center mb-6">
+    <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight">
+      <span class="bg-gradient-to-r from-primary-300 to-indigo-200 bg-clip-text text-transparent">📊 Your Result</span>
+    </h1>
+  </div>
 
-<div id="result" class="result-container"></div>
+  <div id="result" class="text-center"></div>
+</main>
 
-<!-- Toast container -->
-<div id="toast-container"></div>
+<div id="toast-container" class="fixed bottom-6 right-6 z-[200] flex flex-col-reverse gap-2"></div>
 
 <script src="../script.js"></script>
-
 </body>
 </html>
